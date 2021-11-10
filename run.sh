@@ -11,9 +11,11 @@ fi
 echo -e "\nInsira o nome do arquivo sem extensão"
 read NAME
 
+> NPB/logs/$NAME.txt
+
 echo -e "Classe S\n" >> NPB/logs/$NAME.txt
 
-for value in {1..30}
+for value in {1..2}
     do
         valgrind --tool=cachegrind ./NPB/bin/$NAME.S &>> NPB/logs/$NAME.txt
         echo -e " \n" >> NPB/logs/$NAME.txt
@@ -21,9 +23,9 @@ for value in {1..30}
 
 rm -f cachegrind*
 
-echo -e "\nClasse W\n" >> NPB/logs/$NAME.txt
+echo -e "Classe W\n" >> NPB/logs/$NAME.txt
 
-for value in {1..30}
+for value in {1..2}
     do
         valgrind --tool=cachegrind ./NPB/bin/$NAME.W &>> NPB/logs/$NAME.txt
         echo -e " \n" >> NPB/logs/$NAME.txt
