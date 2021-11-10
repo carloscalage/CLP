@@ -4,6 +4,21 @@
 
 Para atingir os objetivos do trabalho, realizei várias mudanças nos arquivos originais, descritas abaixo de forma detalhada.
 
+**Rodar Testes**
+
+Para rodar os testes, criei o script run.sh para rodar 30 vezes os testes com a classe S e a classe W e se necessário recompilar os arquivos.
+
+Basta rodar no root:
+
+```sh
+./run.sh
+```
+
+Em seguida, o script irá perguntar se deseja compilar os arquivos e então irá pedir o nome do programa a ser executado. Note que deve ser informado **apenas o nome sem extensão**.
+
+A saída ocorrerá na pasta ``` /logs/nome_prog.txt ```
+
+
 **Cálculo do tempo:**
 
 Para cálcular o tempo, foi requerido o uso do gettimeofday, que retorna a hora do relógio do sistema. Dessa forma, é necessário pegar a hora no momento inicial da execução e no fim do processo, na função main. Adicionei em todos os arquivos .C utilizados para o trabalho as funções e estruturas descritas abaixo:
