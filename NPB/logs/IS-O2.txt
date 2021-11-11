@@ -1,0 +1,1504 @@
+Classe S
+
+==4739== Cachegrind, a cache and branch-prediction profiler
+==4739== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4739== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4739== Command: ./NPB/bin/is.S
+==4739== 
+--4739-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10436400 sec
+==4739== 
+==4739== I   refs:      21,275,028
+==4739== I1  misses:         1,257
+==4739== LLi misses:         1,228
+==4739== I1  miss rate:       0.01%
+==4739== LLi miss rate:       0.01%
+==4739== 
+==4739== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4739== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4739== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4739== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4739== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4739== 
+==4739== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4739== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4739== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4740== Cachegrind, a cache and branch-prediction profiler
+==4740== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4740== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4740== Command: ./NPB/bin/is.S
+==4740== 
+--4740-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10469900 sec
+==4740== 
+==4740== I   refs:      21,275,028
+==4740== I1  misses:         1,257
+==4740== LLi misses:         1,228
+==4740== I1  miss rate:       0.01%
+==4740== LLi miss rate:       0.01%
+==4740== 
+==4740== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4740== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4740== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4740== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4740== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4740== 
+==4740== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4740== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4740== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4741== Cachegrind, a cache and branch-prediction profiler
+==4741== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4741== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4741== Command: ./NPB/bin/is.S
+==4741== 
+--4741-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10428300 sec
+==4741== 
+==4741== I   refs:      21,275,049
+==4741== I1  misses:         1,260
+==4741== LLi misses:         1,231
+==4741== I1  miss rate:       0.01%
+==4741== LLi miss rate:       0.01%
+==4741== 
+==4741== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4741== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4741== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4741== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4741== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4741== 
+==4741== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4741== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4741== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4742== Cachegrind, a cache and branch-prediction profiler
+==4742== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4742== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4742== Command: ./NPB/bin/is.S
+==4742== 
+--4742-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10506800 sec
+==4742== 
+==4742== I   refs:      21,275,049
+==4742== I1  misses:         1,260
+==4742== LLi misses:         1,231
+==4742== I1  miss rate:       0.01%
+==4742== LLi miss rate:       0.01%
+==4742== 
+==4742== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4742== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4742== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4742== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4742== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4742== 
+==4742== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4742== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4742== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4743== Cachegrind, a cache and branch-prediction profiler
+==4743== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4743== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4743== Command: ./NPB/bin/is.S
+==4743== 
+--4743-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10473100 sec
+==4743== 
+==4743== I   refs:      21,275,028
+==4743== I1  misses:         1,257
+==4743== LLi misses:         1,228
+==4743== I1  miss rate:       0.01%
+==4743== LLi miss rate:       0.01%
+==4743== 
+==4743== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4743== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4743== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4743== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4743== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4743== 
+==4743== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4743== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4743== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4744== Cachegrind, a cache and branch-prediction profiler
+==4744== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4744== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4744== Command: ./NPB/bin/is.S
+==4744== 
+--4744-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10480400 sec
+==4744== 
+==4744== I   refs:      21,275,017
+==4744== I1  misses:         1,257
+==4744== LLi misses:         1,228
+==4744== I1  miss rate:       0.01%
+==4744== LLi miss rate:       0.01%
+==4744== 
+==4744== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4744== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4744== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4744== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4744== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4744== 
+==4744== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4744== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4744== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4745== Cachegrind, a cache and branch-prediction profiler
+==4745== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4745== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4745== Command: ./NPB/bin/is.S
+==4745== 
+--4745-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10463900 sec
+==4745== 
+==4745== I   refs:      21,275,017
+==4745== I1  misses:         1,257
+==4745== LLi misses:         1,228
+==4745== I1  miss rate:       0.01%
+==4745== LLi miss rate:       0.01%
+==4745== 
+==4745== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4745== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4745== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4745== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4745== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4745== 
+==4745== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4745== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4745== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4746== Cachegrind, a cache and branch-prediction profiler
+==4746== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4746== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4746== Command: ./NPB/bin/is.S
+==4746== 
+--4746-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10460200 sec
+==4746== 
+==4746== I   refs:      21,275,017
+==4746== I1  misses:         1,257
+==4746== LLi misses:         1,228
+==4746== I1  miss rate:       0.01%
+==4746== LLi miss rate:       0.01%
+==4746== 
+==4746== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4746== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4746== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4746== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4746== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4746== 
+==4746== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4746== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4746== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4747== Cachegrind, a cache and branch-prediction profiler
+==4747== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4747== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4747== Command: ./NPB/bin/is.S
+==4747== 
+--4747-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10492200 sec
+==4747== 
+==4747== I   refs:      21,275,049
+==4747== I1  misses:         1,260
+==4747== LLi misses:         1,231
+==4747== I1  miss rate:       0.01%
+==4747== LLi miss rate:       0.01%
+==4747== 
+==4747== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4747== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4747== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4747== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4747== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4747== 
+==4747== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4747== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4747== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4748== Cachegrind, a cache and branch-prediction profiler
+==4748== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4748== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4748== Command: ./NPB/bin/is.S
+==4748== 
+--4748-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10474200 sec
+==4748== 
+==4748== I   refs:      21,275,049
+==4748== I1  misses:         1,260
+==4748== LLi misses:         1,231
+==4748== I1  miss rate:       0.01%
+==4748== LLi miss rate:       0.01%
+==4748== 
+==4748== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4748== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4748== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4748== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4748== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4748== 
+==4748== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4748== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4748== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4749== Cachegrind, a cache and branch-prediction profiler
+==4749== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4749== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4749== Command: ./NPB/bin/is.S
+==4749== 
+--4749-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10479100 sec
+==4749== 
+==4749== I   refs:      21,275,028
+==4749== I1  misses:         1,257
+==4749== LLi misses:         1,228
+==4749== I1  miss rate:       0.01%
+==4749== LLi miss rate:       0.01%
+==4749== 
+==4749== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4749== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4749== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4749== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4749== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4749== 
+==4749== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4749== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4749== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4750== Cachegrind, a cache and branch-prediction profiler
+==4750== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4750== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4750== Command: ./NPB/bin/is.S
+==4750== 
+--4750-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10464900 sec
+==4750== 
+==4750== I   refs:      21,275,049
+==4750== I1  misses:         1,260
+==4750== LLi misses:         1,231
+==4750== I1  miss rate:       0.01%
+==4750== LLi miss rate:       0.01%
+==4750== 
+==4750== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4750== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4750== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4750== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4750== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4750== 
+==4750== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4750== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4750== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4751== Cachegrind, a cache and branch-prediction profiler
+==4751== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4751== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4751== Command: ./NPB/bin/is.S
+==4751== 
+--4751-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10434600 sec
+==4751== 
+==4751== I   refs:      21,275,049
+==4751== I1  misses:         1,260
+==4751== LLi misses:         1,231
+==4751== I1  miss rate:       0.01%
+==4751== LLi miss rate:       0.01%
+==4751== 
+==4751== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4751== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4751== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4751== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4751== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4751== 
+==4751== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4751== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4751== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4752== Cachegrind, a cache and branch-prediction profiler
+==4752== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4752== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4752== Command: ./NPB/bin/is.S
+==4752== 
+--4752-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10534800 sec
+==4752== 
+==4752== I   refs:      21,275,049
+==4752== I1  misses:         1,260
+==4752== LLi misses:         1,231
+==4752== I1  miss rate:       0.01%
+==4752== LLi miss rate:       0.01%
+==4752== 
+==4752== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4752== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4752== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4752== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4752== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4752== 
+==4752== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4752== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4752== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4753== Cachegrind, a cache and branch-prediction profiler
+==4753== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4753== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4753== Command: ./NPB/bin/is.S
+==4753== 
+--4753-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10510200 sec
+==4753== 
+==4753== I   refs:      21,275,017
+==4753== I1  misses:         1,257
+==4753== LLi misses:         1,228
+==4753== I1  miss rate:       0.01%
+==4753== LLi miss rate:       0.01%
+==4753== 
+==4753== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4753== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4753== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4753== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4753== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4753== 
+==4753== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4753== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4753== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4754== Cachegrind, a cache and branch-prediction profiler
+==4754== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4754== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4754== Command: ./NPB/bin/is.S
+==4754== 
+--4754-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10549700 sec
+==4754== 
+==4754== I   refs:      21,275,017
+==4754== I1  misses:         1,257
+==4754== LLi misses:         1,228
+==4754== I1  miss rate:       0.01%
+==4754== LLi miss rate:       0.01%
+==4754== 
+==4754== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4754== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4754== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4754== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4754== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4754== 
+==4754== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4754== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4754== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4755== Cachegrind, a cache and branch-prediction profiler
+==4755== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4755== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4755== Command: ./NPB/bin/is.S
+==4755== 
+--4755-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10471000 sec
+==4755== 
+==4755== I   refs:      21,275,057
+==4755== I1  misses:         1,260
+==4755== LLi misses:         1,231
+==4755== I1  miss rate:       0.01%
+==4755== LLi miss rate:       0.01%
+==4755== 
+==4755== D   refs:      10,401,300  (6,733,481 rd   + 3,667,819 wr)
+==4755== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4755== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4755== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4755== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4755== 
+==4755== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4755== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4755== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4756== Cachegrind, a cache and branch-prediction profiler
+==4756== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4756== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4756== Command: ./NPB/bin/is.S
+==4756== 
+--4756-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10532400 sec
+==4756== 
+==4756== I   refs:      21,275,028
+==4756== I1  misses:         1,257
+==4756== LLi misses:         1,228
+==4756== I1  miss rate:       0.01%
+==4756== LLi miss rate:       0.01%
+==4756== 
+==4756== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4756== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4756== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4756== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4756== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4756== 
+==4756== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4756== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4756== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4757== Cachegrind, a cache and branch-prediction profiler
+==4757== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4757== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4757== Command: ./NPB/bin/is.S
+==4757== 
+--4757-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10510400 sec
+==4757== 
+==4757== I   refs:      21,275,049
+==4757== I1  misses:         1,260
+==4757== LLi misses:         1,231
+==4757== I1  miss rate:       0.01%
+==4757== LLi miss rate:       0.01%
+==4757== 
+==4757== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4757== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4757== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4757== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4757== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4757== 
+==4757== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4757== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4757== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4758== Cachegrind, a cache and branch-prediction profiler
+==4758== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4758== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4758== Command: ./NPB/bin/is.S
+==4758== 
+--4758-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10535200 sec
+==4758== 
+==4758== I   refs:      21,275,049
+==4758== I1  misses:         1,260
+==4758== LLi misses:         1,231
+==4758== I1  miss rate:       0.01%
+==4758== LLi miss rate:       0.01%
+==4758== 
+==4758== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4758== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4758== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4758== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4758== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4758== 
+==4758== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4758== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4758== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4759== Cachegrind, a cache and branch-prediction profiler
+==4759== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4759== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4759== Command: ./NPB/bin/is.S
+==4759== 
+--4759-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10539200 sec
+==4759== 
+==4759== I   refs:      21,275,017
+==4759== I1  misses:         1,257
+==4759== LLi misses:         1,228
+==4759== I1  miss rate:       0.01%
+==4759== LLi miss rate:       0.01%
+==4759== 
+==4759== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4759== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4759== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4759== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4759== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4759== 
+==4759== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4759== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4759== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4760== Cachegrind, a cache and branch-prediction profiler
+==4760== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4760== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4760== Command: ./NPB/bin/is.S
+==4760== 
+--4760-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10491700 sec
+==4760== 
+==4760== I   refs:      21,275,049
+==4760== I1  misses:         1,260
+==4760== LLi misses:         1,231
+==4760== I1  miss rate:       0.01%
+==4760== LLi miss rate:       0.01%
+==4760== 
+==4760== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4760== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4760== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4760== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4760== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4760== 
+==4760== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4760== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4760== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4761== Cachegrind, a cache and branch-prediction profiler
+==4761== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4761== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4761== Command: ./NPB/bin/is.S
+==4761== 
+--4761-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10487800 sec
+==4761== 
+==4761== I   refs:      21,275,028
+==4761== I1  misses:         1,257
+==4761== LLi misses:         1,228
+==4761== I1  miss rate:       0.01%
+==4761== LLi miss rate:       0.01%
+==4761== 
+==4761== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4761== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4761== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4761== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4761== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4761== 
+==4761== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4761== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4761== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4762== Cachegrind, a cache and branch-prediction profiler
+==4762== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4762== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4762== Command: ./NPB/bin/is.S
+==4762== 
+--4762-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10510600 sec
+==4762== 
+==4762== I   refs:      21,275,017
+==4762== I1  misses:         1,257
+==4762== LLi misses:         1,228
+==4762== I1  miss rate:       0.01%
+==4762== LLi miss rate:       0.01%
+==4762== 
+==4762== D   refs:      10,401,288  (6,733,473 rd   + 3,667,815 wr)
+==4762== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4762== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4762== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4762== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4762== 
+==4762== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4762== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4762== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4763== Cachegrind, a cache and branch-prediction profiler
+==4763== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4763== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4763== Command: ./NPB/bin/is.S
+==4763== 
+--4763-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10468300 sec
+==4763== 
+==4763== I   refs:      21,275,049
+==4763== I1  misses:         1,260
+==4763== LLi misses:         1,231
+==4763== I1  miss rate:       0.01%
+==4763== LLi miss rate:       0.01%
+==4763== 
+==4763== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4763== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4763== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4763== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4763== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4763== 
+==4763== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4763== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4763== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4764== Cachegrind, a cache and branch-prediction profiler
+==4764== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4764== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4764== Command: ./NPB/bin/is.S
+==4764== 
+--4764-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10506800 sec
+==4764== 
+==4764== I   refs:      21,275,049
+==4764== I1  misses:         1,260
+==4764== LLi misses:         1,231
+==4764== I1  miss rate:       0.01%
+==4764== LLi miss rate:       0.01%
+==4764== 
+==4764== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4764== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4764== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4764== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4764== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4764== 
+==4764== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4764== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4764== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4765== Cachegrind, a cache and branch-prediction profiler
+==4765== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4765== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4765== Command: ./NPB/bin/is.S
+==4765== 
+--4765-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10462100 sec
+==4765== 
+==4765== I   refs:      21,275,028
+==4765== I1  misses:         1,257
+==4765== LLi misses:         1,228
+==4765== I1  miss rate:       0.01%
+==4765== LLi miss rate:       0.01%
+==4765== 
+==4765== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4765== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4765== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4765== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4765== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4765== 
+==4765== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4765== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4765== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4766== Cachegrind, a cache and branch-prediction profiler
+==4766== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4766== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4766== Command: ./NPB/bin/is.S
+==4766== 
+--4766-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10464400 sec
+==4766== 
+==4766== I   refs:      21,275,028
+==4766== I1  misses:         1,257
+==4766== LLi misses:         1,228
+==4766== I1  miss rate:       0.01%
+==4766== LLi miss rate:       0.01%
+==4766== 
+==4766== D   refs:      10,401,292  (6,733,477 rd   + 3,667,815 wr)
+==4766== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4766== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4766== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4766== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4766== 
+==4766== LL refs:          201,981  (  107,944 rd   +    94,037 wr)
+==4766== LL misses:         12,272  (    3,322 rd   +     8,950 wr)
+==4766== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4767== Cachegrind, a cache and branch-prediction profiler
+==4767== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4767== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4767== Command: ./NPB/bin/is.S
+==4767== 
+--4767-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10460400 sec
+==4767== 
+==4767== I   refs:      21,275,049
+==4767== I1  misses:         1,260
+==4767== LLi misses:         1,231
+==4767== I1  miss rate:       0.01%
+==4767== LLi miss rate:       0.01%
+==4767== 
+==4767== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4767== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4767== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4767== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4767== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4767== 
+==4767== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4767== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4767== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+==4768== Cachegrind, a cache and branch-prediction profiler
+==4768== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4768== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4768== Command: ./NPB/bin/is.S
+==4768== 
+--4768-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 0.10498900 sec
+==4768== 
+==4768== I   refs:      21,275,049
+==4768== I1  misses:         1,260
+==4768== LLi misses:         1,231
+==4768== I1  miss rate:       0.01%
+==4768== LLi miss rate:       0.01%
+==4768== 
+==4768== D   refs:      10,401,298  (6,733,480 rd   + 3,667,818 wr)
+==4768== D1  misses:       200,724  (  106,687 rd   +    94,037 wr)
+==4768== LLd misses:        11,044  (    2,094 rd   +     8,950 wr)
+==4768== D1  miss rate:        1.9% (      1.6%     +       2.6%  )
+==4768== LLd miss rate:        0.1% (      0.0%     +       0.2%  )
+==4768== 
+==4768== LL refs:          201,984  (  107,947 rd   +    94,037 wr)
+==4768== LL misses:         12,275  (    3,325 rd   +     8,950 wr)
+==4768== LL miss rate:         0.0% (      0.0%     +       0.2%  )
+ 
+
+Classe W
+
+==4770== Cachegrind, a cache and branch-prediction profiler
+==4770== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4770== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4770== Command: ./NPB/bin/is.W
+==4770== 
+--4770-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79937696 sec
+==4770== 
+==4770== I   refs:      345,080,759
+==4770== I1  misses:          1,237
+==4770== LLi misses:          1,229
+==4770== I1  miss rate:        0.00%
+==4770== LLi miss rate:        0.00%
+==4770== 
+==4770== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4770== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4770== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4770== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4770== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4770== 
+==4770== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4770== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4770== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4771== Cachegrind, a cache and branch-prediction profiler
+==4771== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4771== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4771== Command: ./NPB/bin/is.W
+==4771== 
+--4771-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79731703 sec
+==4771== 
+==4771== I   refs:      345,080,777
+==4771== I1  misses:          1,240
+==4771== LLi misses:          1,232
+==4771== I1  miss rate:        0.00%
+==4771== LLi miss rate:        0.00%
+==4771== 
+==4771== D   refs:      171,913,113  (107,560,441 rd   + 64,352,672 wr)
+==4771== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4771== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4771== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4771== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4771== 
+==4771== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4771== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4771== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4772== Cachegrind, a cache and branch-prediction profiler
+==4772== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4772== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4772== Command: ./NPB/bin/is.W
+==4772== 
+--4772-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79477596 sec
+==4772== 
+==4772== I   refs:      345,080,759
+==4772== I1  misses:          1,237
+==4772== LLi misses:          1,229
+==4772== I1  miss rate:        0.00%
+==4772== LLi miss rate:        0.00%
+==4772== 
+==4772== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4772== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4772== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4772== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4772== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4772== 
+==4772== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4772== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4772== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4773== Cachegrind, a cache and branch-prediction profiler
+==4773== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4773== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4773== Command: ./NPB/bin/is.W
+==4773== 
+--4773-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79337394 sec
+==4773== 
+==4773== I   refs:      345,080,759
+==4773== I1  misses:          1,237
+==4773== LLi misses:          1,229
+==4773== I1  miss rate:        0.00%
+==4773== LLi miss rate:        0.00%
+==4773== 
+==4773== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4773== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4773== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4773== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4773== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4773== 
+==4773== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4773== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4773== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4774== Cachegrind, a cache and branch-prediction profiler
+==4774== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4774== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4774== Command: ./NPB/bin/is.W
+==4774== 
+--4774-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79427195 sec
+==4774== 
+==4774== I   refs:      345,080,788
+==4774== I1  misses:          1,240
+==4774== LLi misses:          1,232
+==4774== I1  miss rate:        0.00%
+==4774== LLi miss rate:        0.00%
+==4774== 
+==4774== D   refs:      171,913,117  (107,560,445 rd   + 64,352,672 wr)
+==4774== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4774== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4774== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4774== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4774== 
+==4774== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4774== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4774== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4775== Cachegrind, a cache and branch-prediction profiler
+==4775== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4775== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4775== Command: ./NPB/bin/is.W
+==4775== 
+--4775-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79364204 sec
+==4775== 
+==4775== I   refs:      345,080,759
+==4775== I1  misses:          1,237
+==4775== LLi misses:          1,229
+==4775== I1  miss rate:        0.00%
+==4775== LLi miss rate:        0.00%
+==4775== 
+==4775== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4775== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4775== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4775== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4775== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4775== 
+==4775== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4775== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4775== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4776== Cachegrind, a cache and branch-prediction profiler
+==4776== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4776== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4776== Command: ./NPB/bin/is.W
+==4776== 
+--4776-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79366505 sec
+==4776== 
+==4776== I   refs:      345,080,759
+==4776== I1  misses:          1,237
+==4776== LLi misses:          1,229
+==4776== I1  miss rate:        0.00%
+==4776== LLi miss rate:        0.00%
+==4776== 
+==4776== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4776== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4776== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4776== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4776== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4776== 
+==4776== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4776== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4776== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4777== Cachegrind, a cache and branch-prediction profiler
+==4777== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4777== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4777== Command: ./NPB/bin/is.W
+==4777== 
+--4777-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79378700 sec
+==4777== 
+==4777== I   refs:      345,080,759
+==4777== I1  misses:          1,237
+==4777== LLi misses:          1,229
+==4777== I1  miss rate:        0.00%
+==4777== LLi miss rate:        0.00%
+==4777== 
+==4777== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4777== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4777== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4777== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4777== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4777== 
+==4777== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4777== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4777== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4778== Cachegrind, a cache and branch-prediction profiler
+==4778== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4778== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4778== Command: ./NPB/bin/is.W
+==4778== 
+--4778-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79405200 sec
+==4778== 
+==4778== I   refs:      345,080,759
+==4778== I1  misses:          1,237
+==4778== LLi misses:          1,229
+==4778== I1  miss rate:        0.00%
+==4778== LLi miss rate:        0.00%
+==4778== 
+==4778== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4778== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4778== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4778== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4778== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4778== 
+==4778== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4778== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4778== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4779== Cachegrind, a cache and branch-prediction profiler
+==4779== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4779== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4779== Command: ./NPB/bin/is.W
+==4779== 
+--4779-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79682004 sec
+==4779== 
+==4779== I   refs:      345,080,759
+==4779== I1  misses:          1,237
+==4779== LLi misses:          1,229
+==4779== I1  miss rate:        0.00%
+==4779== LLi miss rate:        0.00%
+==4779== 
+==4779== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4779== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4779== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4779== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4779== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4779== 
+==4779== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4779== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4779== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4780== Cachegrind, a cache and branch-prediction profiler
+==4780== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4780== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4780== Command: ./NPB/bin/is.W
+==4780== 
+--4780-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79402697 sec
+==4780== 
+==4780== I   refs:      345,080,770
+==4780== I1  misses:          1,237
+==4780== LLi misses:          1,229
+==4780== I1  miss rate:        0.00%
+==4780== LLi miss rate:        0.00%
+==4780== 
+==4780== D   refs:      171,913,111  (107,560,440 rd   + 64,352,671 wr)
+==4780== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4780== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4780== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4780== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4780== 
+==4780== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4780== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4780== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4781== Cachegrind, a cache and branch-prediction profiler
+==4781== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4781== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4781== Command: ./NPB/bin/is.W
+==4781== 
+--4781-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79363894 sec
+==4781== 
+==4781== I   refs:      345,080,759
+==4781== I1  misses:          1,237
+==4781== LLi misses:          1,229
+==4781== I1  miss rate:        0.00%
+==4781== LLi miss rate:        0.00%
+==4781== 
+==4781== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4781== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4781== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4781== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4781== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4781== 
+==4781== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4781== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4781== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4782== Cachegrind, a cache and branch-prediction profiler
+==4782== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4782== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4782== Command: ./NPB/bin/is.W
+==4782== 
+--4782-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79371798 sec
+==4782== 
+==4782== I   refs:      345,080,770
+==4782== I1  misses:          1,237
+==4782== LLi misses:          1,229
+==4782== I1  miss rate:        0.00%
+==4782== LLi miss rate:        0.00%
+==4782== 
+==4782== D   refs:      171,913,111  (107,560,440 rd   + 64,352,671 wr)
+==4782== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4782== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4782== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4782== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4782== 
+==4782== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4782== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4782== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4783== Cachegrind, a cache and branch-prediction profiler
+==4783== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4783== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4783== Command: ./NPB/bin/is.W
+==4783== 
+--4783-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79376101 sec
+==4783== 
+==4783== I   refs:      345,080,759
+==4783== I1  misses:          1,237
+==4783== LLi misses:          1,229
+==4783== I1  miss rate:        0.00%
+==4783== LLi miss rate:        0.00%
+==4783== 
+==4783== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4783== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4783== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4783== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4783== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4783== 
+==4783== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4783== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4783== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4784== Cachegrind, a cache and branch-prediction profiler
+==4784== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4784== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4784== Command: ./NPB/bin/is.W
+==4784== 
+--4784-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79870999 sec
+==4784== 
+==4784== I   refs:      345,080,777
+==4784== I1  misses:          1,240
+==4784== LLi misses:          1,232
+==4784== I1  miss rate:        0.00%
+==4784== LLi miss rate:        0.00%
+==4784== 
+==4784== D   refs:      171,913,113  (107,560,441 rd   + 64,352,672 wr)
+==4784== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4784== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4784== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4784== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4784== 
+==4784== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4784== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4784== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4785== Cachegrind, a cache and branch-prediction profiler
+==4785== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4785== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4785== Command: ./NPB/bin/is.W
+==4785== 
+--4785-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79410398 sec
+==4785== 
+==4785== I   refs:      345,080,774
+==4785== I1  misses:          1,237
+==4785== LLi misses:          1,229
+==4785== I1  miss rate:        0.00%
+==4785== LLi miss rate:        0.00%
+==4785== 
+==4785== D   refs:      171,913,112  (107,560,441 rd   + 64,352,671 wr)
+==4785== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4785== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4785== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4785== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4785== 
+==4785== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4785== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4785== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4786== Cachegrind, a cache and branch-prediction profiler
+==4786== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4786== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4786== Command: ./NPB/bin/is.W
+==4786== 
+--4786-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79410195 sec
+==4786== 
+==4786== I   refs:      345,080,759
+==4786== I1  misses:          1,237
+==4786== LLi misses:          1,229
+==4786== I1  miss rate:        0.00%
+==4786== LLi miss rate:        0.00%
+==4786== 
+==4786== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4786== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4786== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4786== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4786== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4786== 
+==4786== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4786== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4786== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4787== Cachegrind, a cache and branch-prediction profiler
+==4787== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4787== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4787== Command: ./NPB/bin/is.W
+==4787== 
+--4787-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79374003 sec
+==4787== 
+==4787== I   refs:      345,080,759
+==4787== I1  misses:          1,237
+==4787== LLi misses:          1,229
+==4787== I1  miss rate:        0.00%
+==4787== LLi miss rate:        0.00%
+==4787== 
+==4787== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4787== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4787== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4787== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4787== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4787== 
+==4787== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4787== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4787== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4788== Cachegrind, a cache and branch-prediction profiler
+==4788== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4788== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4788== Command: ./NPB/bin/is.W
+==4788== 
+--4788-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79464900 sec
+==4788== 
+==4788== I   refs:      345,080,759
+==4788== I1  misses:          1,237
+==4788== LLi misses:          1,229
+==4788== I1  miss rate:        0.00%
+==4788== LLi miss rate:        0.00%
+==4788== 
+==4788== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4788== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4788== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4788== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4788== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4788== 
+==4788== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4788== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4788== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4789== Cachegrind, a cache and branch-prediction profiler
+==4789== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4789== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4789== Command: ./NPB/bin/is.W
+==4789== 
+--4789-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79338098 sec
+==4789== 
+==4789== I   refs:      345,080,786
+==4789== I1  misses:          1,240
+==4789== LLi misses:          1,232
+==4789== I1  miss rate:        0.00%
+==4789== LLi miss rate:        0.00%
+==4789== 
+==4789== D   refs:      171,913,117  (107,560,445 rd   + 64,352,672 wr)
+==4789== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4789== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4789== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4789== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4789== 
+==4789== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4789== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4789== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4790== Cachegrind, a cache and branch-prediction profiler
+==4790== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4790== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4790== Command: ./NPB/bin/is.W
+==4790== 
+--4790-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79387295 sec
+==4790== 
+==4790== I   refs:      345,080,759
+==4790== I1  misses:          1,237
+==4790== LLi misses:          1,229
+==4790== I1  miss rate:        0.00%
+==4790== LLi miss rate:        0.00%
+==4790== 
+==4790== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4790== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4790== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4790== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4790== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4790== 
+==4790== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4790== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4790== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4791== Cachegrind, a cache and branch-prediction profiler
+==4791== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4791== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4791== Command: ./NPB/bin/is.W
+==4791== 
+--4791-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79667902 sec
+==4791== 
+==4791== I   refs:      345,080,775
+==4791== I1  misses:          1,240
+==4791== LLi misses:          1,232
+==4791== I1  miss rate:        0.00%
+==4791== LLi miss rate:        0.00%
+==4791== 
+==4791== D   refs:      171,913,113  (107,560,441 rd   + 64,352,672 wr)
+==4791== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4791== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4791== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4791== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4791== 
+==4791== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4791== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4791== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4792== Cachegrind, a cache and branch-prediction profiler
+==4792== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4792== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4792== Command: ./NPB/bin/is.W
+==4792== 
+--4792-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79470098 sec
+==4792== 
+==4792== I   refs:      345,080,770
+==4792== I1  misses:          1,237
+==4792== LLi misses:          1,229
+==4792== I1  miss rate:        0.00%
+==4792== LLi miss rate:        0.00%
+==4792== 
+==4792== D   refs:      171,913,111  (107,560,440 rd   + 64,352,671 wr)
+==4792== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4792== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4792== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4792== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4792== 
+==4792== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4792== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4792== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4793== Cachegrind, a cache and branch-prediction profiler
+==4793== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4793== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4793== Command: ./NPB/bin/is.W
+==4793== 
+--4793-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79448795 sec
+==4793== 
+==4793== I   refs:      345,080,759
+==4793== I1  misses:          1,237
+==4793== LLi misses:          1,229
+==4793== I1  miss rate:        0.00%
+==4793== LLi miss rate:        0.00%
+==4793== 
+==4793== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4793== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4793== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4793== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4793== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4793== 
+==4793== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4793== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4793== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4794== Cachegrind, a cache and branch-prediction profiler
+==4794== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4794== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4794== Command: ./NPB/bin/is.W
+==4794== 
+--4794-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79490995 sec
+==4794== 
+==4794== I   refs:      345,080,759
+==4794== I1  misses:          1,237
+==4794== LLi misses:          1,229
+==4794== I1  miss rate:        0.00%
+==4794== LLi miss rate:        0.00%
+==4794== 
+==4794== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4794== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4794== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4794== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4794== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4794== 
+==4794== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4794== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4794== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4795== Cachegrind, a cache and branch-prediction profiler
+==4795== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4795== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4795== Command: ./NPB/bin/is.W
+==4795== 
+--4795-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79939198 sec
+==4795== 
+==4795== I   refs:      345,080,759
+==4795== I1  misses:          1,237
+==4795== LLi misses:          1,229
+==4795== I1  miss rate:        0.00%
+==4795== LLi miss rate:        0.00%
+==4795== 
+==4795== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4795== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4795== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4795== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4795== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4795== 
+==4795== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4795== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4795== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4796== Cachegrind, a cache and branch-prediction profiler
+==4796== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4796== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4796== Command: ./NPB/bin/is.W
+==4796== 
+--4796-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79811299 sec
+==4796== 
+==4796== I   refs:      345,080,777
+==4796== I1  misses:          1,240
+==4796== LLi misses:          1,232
+==4796== I1  miss rate:        0.00%
+==4796== LLi miss rate:        0.00%
+==4796== 
+==4796== D   refs:      171,913,113  (107,560,441 rd   + 64,352,672 wr)
+==4796== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4796== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4796== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4796== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4796== 
+==4796== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4796== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4796== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4797== Cachegrind, a cache and branch-prediction profiler
+==4797== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4797== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4797== Command: ./NPB/bin/is.W
+==4797== 
+--4797-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79425097 sec
+==4797== 
+==4797== I   refs:      345,080,788
+==4797== I1  misses:          1,240
+==4797== LLi misses:          1,232
+==4797== I1  miss rate:        0.00%
+==4797== LLi miss rate:        0.00%
+==4797== 
+==4797== D   refs:      171,913,117  (107,560,445 rd   + 64,352,672 wr)
+==4797== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4797== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4797== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4797== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4797== 
+==4797== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4797== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4797== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4798== Cachegrind, a cache and branch-prediction profiler
+==4798== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4798== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4798== Command: ./NPB/bin/is.W
+==4798== 
+--4798-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79328799 sec
+==4798== 
+==4798== I   refs:      345,080,759
+==4798== I1  misses:          1,237
+==4798== LLi misses:          1,229
+==4798== I1  miss rate:        0.00%
+==4798== LLi miss rate:        0.00%
+==4798== 
+==4798== D   refs:      171,913,107  (107,560,436 rd   + 64,352,671 wr)
+==4798== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4798== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4798== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4798== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4798== 
+==4798== LL refs:        13,571,368  ( 11,652,889 rd   +  1,918,479 wr)
+==4798== LL misses:       1,738,281  (    925,347 rd   +    812,934 wr)
+==4798== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
+==4799== Cachegrind, a cache and branch-prediction profiler
+==4799== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4799== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4799== Command: ./NPB/bin/is.W
+==4799== 
+--4799-- warning: L3 cache found, using its data for the LL simulation.
+time spent: 1.79381502 sec
+==4799== 
+==4799== I   refs:      345,080,775
+==4799== I1  misses:          1,240
+==4799== LLi misses:          1,232
+==4799== I1  miss rate:        0.00%
+==4799== LLi miss rate:        0.00%
+==4799== 
+==4799== D   refs:      171,913,113  (107,560,441 rd   + 64,352,672 wr)
+==4799== D1  misses:     13,570,131  ( 11,651,652 rd   +  1,918,479 wr)
+==4799== LLd misses:      1,737,052  (    924,118 rd   +    812,934 wr)
+==4799== D1  miss rate:         7.9% (       10.8%     +        3.0%  )
+==4799== LLd miss rate:         1.0% (        0.9%     +        1.3%  )
+==4799== 
+==4799== LL refs:        13,571,371  ( 11,652,892 rd   +  1,918,479 wr)
+==4799== LL misses:       1,738,284  (    925,350 rd   +    812,934 wr)
+==4799== LL miss rate:          0.3% (        0.2%     +        1.3%  )
+ 
+
