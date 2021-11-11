@@ -6,6 +6,7 @@ read OPTION
 if [ $OPTION == "s" ];
    then
       cd NPB && make suite
+      cd ..
 fi
 
 echo -e "\nInsira o nome do arquivo sem extensão"
